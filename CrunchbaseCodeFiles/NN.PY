@@ -17,9 +17,9 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from imblearn.over_sampling import SMOTE
 
 # Paths
-file_path = "Dataset/updated_startup_data.csv"
-model_path = "CrunchbaseCodeFiles/pickel/nn_model.h5"
-plot_dir = "CrunchbaseCodeFiles/plots/Neural Network Plots"
+file_path = r"C:\Users\aanch\Downloads\Startup\Data\updated_startup_data.csv"
+model_path = r"C:\Users\aanch\Downloads\Startup\Crunch\pickel\nn_model.h5"
+plot_dir = r"C:\Users\aanch\Downloads\Startup\Crunch\plots\NN"
 os.makedirs(plot_dir, exist_ok=True)
 
 # Load & preprocess data
