@@ -14,7 +14,7 @@ import pickle
 
 # Paths
 file_path = r"C:\Users\aanch\Downloads\Startup\Data\updated_startup_data.csv"
-model_path = r"C:\Users\aanch\Downloads\Startup\Crunch\pickel\xgboost.pkl"
+model_path =CrunchbaseCodeFiles/pickel/xgboost.pkl"
 plot_dir = r"C:\Users\aanch\Downloads\Startup\Crunch\plots\XG"
 os.makedirs(plot_dir, exist_ok=True)
 
