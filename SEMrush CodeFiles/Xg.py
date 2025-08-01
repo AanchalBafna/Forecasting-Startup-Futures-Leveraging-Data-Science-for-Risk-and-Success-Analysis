@@ -15,11 +15,9 @@ from sklearn.metrics import (
 )
 
 # === Paths ===
-file_path = "Dataset/web_metrics_standardized_v3.csv"
-model_path = "SEMrush CodeFiles/pickel/xgboost_web_model.pkl"
-
-# Plot saving directory
-plot_dir = os.path.join(os.getcwd(), "SEMrush CodeFiles/plots/XGboost Plots")
+file_path = r"C:\Users\aanch\Downloads\Startup\Data\web_metrics_standardized_v3.csv"
+model_path = r"C:\Users\aanch\Downloads\Startup\SEm\pickel\xgboost_web_model.pkl"
+plot_dir = os.path.join(os.getcwd(), "Plots")
 os.makedirs(os.path.dirname(model_path), exist_ok=True)
 os.makedirs(plot_dir, exist_ok=True)
 
