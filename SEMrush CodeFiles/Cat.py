@@ -11,7 +11,7 @@ import pickle
 import os
 
 # File paths
-file_path = r"C:\Users\aanch\Downloads\Startup\Data\web_metrics_standardized_v3.csv"
+file_path = "Dataset/web_metrics_standardized_v3.csv"
 model_path = r"C:\Users\aanch\Downloads\Startup\SEm\pickel\catboost_balanced_model.pkl"
 
 # Plot saving directory
