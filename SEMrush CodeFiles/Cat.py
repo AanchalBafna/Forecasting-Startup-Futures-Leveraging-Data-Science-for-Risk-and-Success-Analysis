@@ -15,7 +15,7 @@ file_path = r"C:\Users\aanch\Downloads\Startup\Data\web_metrics_standardized_v3.
 model_path = r"C:\Users\aanch\Downloads\Startup\SEm\pickel\catboost_balanced_model.pkl"
 
 # Plot saving directory
-plot_dir = os.path.join(os.getcwd(), "Plots")
+plot_dir = os.path.join(os.getcwd(), "SEMrush CodeFiles/plots/Catboost Plots")
 os.makedirs(os.path.dirname(model_path), exist_ok=True)
 os.makedirs(plot_dir, exist_ok=True)
 
