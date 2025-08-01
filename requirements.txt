@@ -1,1 +1,13 @@
+#necessary dependencies used across the projects:
+
+pandas
+numpy
+matplotlib
+seaborn
+xgboost
+catboost
+shap
+scikit-learn
+tensorflow
+imbalanced-learn
 
