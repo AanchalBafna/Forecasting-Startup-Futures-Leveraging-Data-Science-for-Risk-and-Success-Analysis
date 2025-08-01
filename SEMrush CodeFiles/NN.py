@@ -16,11 +16,9 @@ import pickle
 import seaborn as sns
 
 # Set paths
-file_path = "Dataset/web_metrics_standardized_v3.csv"
-model_path = "SEMrush CodeFiles/pickel/nn_model.h5"
-
-# Plot saving directory
-plot_dir = os.path.join(os.getcwd(), "SEMrush CodeFiles/plots/Neural Network Plots")
+file_path = r"C:\Users\aanch\Downloads\Startup\Data\web_metrics_standardized_v3.csv"
+model_path = r"C:\Users\aanch\Downloads\Startup\SEm\pickel\nn_model.h5"
+plot_dir = os.path.join(os.getcwd(), "Plots")
 os.makedirs(os.path.dirname(model_path), exist_ok=True)
 os.makedirs(plot_dir, exist_ok=True)
 
