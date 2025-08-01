@@ -12,10 +12,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 import pickle
 
-# Paths
-file_path = "Dataset/updated_startup_data.csv"
-model_path = "CrunchbaseCodeFiles/pickel/cat.pkl"
-plot_dir = "CrunchbaseCodeFiles/plots/Catboost"
+file_path = r"C:\Users\aanch\Downloads\Startup\Data\updated_startup_data.csv"
+model_path = r"C:\Users\aanch\Downloads\Startup\Crunch\pickel\cat.pkl"
+plot_dir = r"C:\Users\aanch\Downloads\Startup\Crunch\plots\Cat"
 os.makedirs(plot_dir, exist_ok=True)
 
 # Load dataset
