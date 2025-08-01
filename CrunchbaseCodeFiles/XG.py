@@ -15,7 +15,7 @@ import pickle
 # Paths
 file_path = "Dataset/updated_startup_data.csv"
 model_path = "CrunchbaseCodeFiles/pickel/xgboost.pkl"
-plot_dir = "CrunchbaseCodeFiles/plots/"
+plot_dir = "CrunchbaseCodeFiles/plots/XGboost plots"
 os.makedirs(plot_dir, exist_ok=True)
 
 # Load dataset
