@@ -18,15 +18,15 @@ Welcome to the **Startup Success Predictor**. This tool helps **entrepreneurs** 
 # === Paths ===
 dataset_option = st.sidebar.selectbox("📂 Choose Dataset", ["Crunchbase (Category & Geography)", "SEMrush (Web Metrics)"])
 if dataset_option == "Crunchbase (Category & Geography)":
-    data_path = "Dataset/updated_startup_data.csv"
-    catboost_model_path = "CrunchbaseCodeFiles/pickel/cat.pkl"
-    xgb_model_path = "CrunchbaseCodeFiles/pickel/xgboost.pkl"
-    nn_model_path = "CrunchbaseCodeFiles/pickel/nn_model.h5"
+    data_path = "C:/Users/aanch/Downloads/Startup/Data/updated_startup_data.csv"
+    catboost_model_path = "C:/Users/aanch/Downloads/Startup/Crunch/pickel/cat.pkl"
+    xgb_model_path = "C:/Users/aanch/Downloads/Startup/Crunch/pickel/xgboost.pkl"
+    nn_model_path = "C:/Users/aanch/Downloads/Startup/Crunch/pickel/nn_model.h5"
 else:
-    data_path = "Dataset/web_metrics_standardized_v3.csv"
-    catboost_model_path = "SEMrush CodeFiles/pickel/catboost_balanced_model.pkl"
-    xgb_model_path = "SEMrush CodeFiles/pickel/xgboost_web_model.pkl"
-    nn_model_path = "SEMrush CodeFiles/pickel/nn_model.h5"
+    data_path = "C:/Users/aanch/Downloads/Startup/Data/web_metrics_standardized_v3.csv"
+    catboost_model_path = "C:/Users/aanch/Downloads/Startup/SEm/pickel/catboost_balanced_model.pkl"
+    xgb_model_path = "C:/Users/aanch/Downloads/Startup/SEm/pickel/xgboost_web_model.pkl"
+    nn_model_path = "C:/Users/aanch/Downloads/Startup/SEm/pickel/nn_model.h5"
 
 
 
