@@ -17,7 +17,7 @@ import seaborn as sns
 
 # Set paths
 file_path = "Dataset/web_metrics_standardized_v3.csv"
-model_path = "SEMrush CodeFiles/pickel/catboost_balanced_model.pkl"
+model_path = "SEMrush CodeFiles/pickel/nn_model.h5"
 
 # Plot saving directory
 plot_dir = os.path.join(os.getcwd(), "SEMrush CodeFiles/plots/Neural Network Plots")
